@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_nitin_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/e1384def-e182-4cf1-9d6f-249c5d9526b3/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-nitin-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>5d107ee2-6032-45c0-b6ec-6c27340f6459</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
